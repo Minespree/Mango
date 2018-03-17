@@ -9,8 +9,8 @@ This repo contains the code of Mango, the main shared library that we planned to
 As you might have noticed, most base frameworks ([Feather](https://github.com/Minespree/Feather) and [Dominion](https://github.com/Minespree/Dominion) in particular) have lots of duplicated code that we planned to remove by adding this base library that was platform agnostic (so that it could also be used by our PlayPen plugins, [Zygote](https://github.com/Minespree/Zygote) in particular).
 We never got to use the library because the server closed down, but there were WIP branches for each base project (that we've decided not to open source because they are heavily broken in their current state).
 
-The intention we had by creating this project was to improve developer satisfaction and fixing long standing issues caused by old legacy modules (e.g. the punishment system).
-We knew this would require a major refactor of most of our main projects but the long-term improvement of several aspects of the network would be worth the time and effort put into this project.
+The intention we had by creating this project was to improve our developer satisfaction and fixing long standing issues caused by old legacy modules (e.g. the punishment system).
+We knew this would require a major refactor of most of our main projects but the long-term improvement of several aspects of the network would be worth the time and effort put into this process.
 
 Besides the removal of some branding and configuration data, it is more or less unmodified. It is probably not _directly_ useful to third parties in its current state, but it may be help in understanding how the Minespree network operated.
 
