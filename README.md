@@ -46,7 +46,7 @@ This repo contains the following components:
 * Connectable and Connector API (used to abstract the connection to external services)
 * MongoDB and Redis managers
 * Scheduler API
-* Base Player classes (with Morphia annotations)
+* Base Player classes (with [Morphia](https://github.com/mongodb/morphia) annotations)
 * Repository API (supports notifications, serialization, safe types...)
 * JSON serializer (using [Gson](https://github.com/google/gson))
 * Game and Server interfaces
