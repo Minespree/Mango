@@ -48,7 +48,7 @@ This repo contains the following components:
 * Scheduler API
 * Base Player classes (with Morphia annotations)
 * Repository API (supports notifications, serialization, safe types...)
-* JSON serializer (using gson)
+* JSON serializer (using [Gson](https://github.com/google/gson))
 * Game and Server interfaces
 * Weighted random chooser
 * Collection utils
